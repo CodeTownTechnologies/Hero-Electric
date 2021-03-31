@@ -25,7 +25,10 @@ const Order=({navigation})=>{
            <TouchableOpacity>
                 <AntDesign name="arrowleft" size={20} color={"black"} style={{ marginLeft: wp(10), marginTop: hp(20) }} onPress={() => { navigation.goBack() }} />
             </TouchableOpacity>
-            <View>
+            <View style={{flexDirection:'row'}}>
+            <View style={{width:150,height:100,justifyContent:'center',alignItems:'center'}} >
+                    <Image source={require('../Assests/checklist.png')} style={{width:70,height:70,}}      />
+                </View>
                 <View style={styles.title}>
                     <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Order</Text>
                 </View>

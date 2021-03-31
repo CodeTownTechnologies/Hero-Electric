@@ -20,7 +20,7 @@ const orderHeader=({navigation})=>{
                 <AntDesign name="arrowleft" size={20} color={"black"} style={{ marginLeft: wp(10), marginTop: hp(10) }} onPress={() => { navigation.goBack() }} />
             </TouchableOpacity>
             <View style={{flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
-            <View style={{marginTop:hp(20),justifyContent:'center',alignItems:'center',marginBottom:hp(25)}}>
+            <View style={{marginTop:hp(20),width:300,justifyContent:'center',alignItems:'center',marginBottom:hp(25)}}>
                 <Text style={{fontSize:18,fontWeight:'bold'}}>Orders</Text>
             </View>
             <TouchableOpacity style={styles.Save} onPress={()=>{navigation.navigate('NewOrdersScreen')}} >

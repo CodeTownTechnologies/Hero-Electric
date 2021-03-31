@@ -15,9 +15,15 @@ const NewOrder = ({ navigation }) => {
             <TouchableOpacity>
                 <AntDesign name="arrowleft" size={20} color={"black"} style={{ marginLeft: wp(10), marginTop: hp(20) }} onPress={() => { navigation.goBack() }} />
             </TouchableOpacity>
-            <View>
+            <View style={{flexDirection:'row'}}>
+                <View style={{width:150,height:100,justifyContent:'center',alignItems:'center'}} >
+                    <Image source={require('../Assests/checklist.png')} style={{width:70,height:70,}}      />
+                </View>
                 <View style={styles.title}>
                     <Text style={{ fontSize: 20, fontWeight: 'bold' }}>New Order</Text>
+                </View>
+                <View style={{width:150,height:100,justifyContent:'center',alignItems:'center'}} >
+                    <Image source={require('../Assests/carts.png')}  style={{width:30,height:30,alignSelf:'flex-end',marginRight:10}}    />
                 </View>
             </View>
             <View style={{ flexDirection: 'row' }}>

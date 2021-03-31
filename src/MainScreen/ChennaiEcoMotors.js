@@ -16,14 +16,14 @@ const EcoMotors = ({navigation}) => {
             <View style={{flexDirection:'row'}}>
             <View style={styles.cardOne}>
               <TouchableOpacity style={{justifyContent:'center',alignItems:'center',}} onPress={()=>{navigation.navigate('orderHeader')}}>
-                  <Image source={require('../Assests/ImagePlaceholder.png')} style={{width:wp(140),height:hp(120),marginTop:10}} />
+                  <Image source={require('../Assests/carts.png')} style={{width:wp(120),height:hp(120),marginTop:10}} />
                   <Text style={{color:'#000000',fontSize:17,marginTop:25}}>New Order</Text>
               </TouchableOpacity>
 
             </View>
             <View style={styles.cardSecond}>
             <TouchableOpacity style={{justifyContent:'center',alignItems:'center',}}>
-                  <Image source={require('../Assests/ImagePlaceholder.png')} style={{width:wp(140),height:hp(120),marginTop:10}} />
+                  <Image source={require('../Assests/checklist.png')} style={{width:wp(120),height:hp(120),marginTop:10}} />
                   <Text style={{color:'#000000',fontSize:17,marginTop:25}}>Order List</Text>
               </TouchableOpacity>
             </View>
@@ -31,14 +31,14 @@ const EcoMotors = ({navigation}) => {
             <View style={{flexDirection:'row'}}>
             <View style={styles.cardOne}>
               <TouchableOpacity style={{justifyContent:'center',alignItems:'center',}}>
-                  <Image source={require('../Assests/ImagePlaceholder.png')} style={{width:wp(140),height:hp(120),marginTop:10}} />
+                  <Image source={require('../Assests/fast-delivery.png')} style={{width:wp(120),height:hp(120),marginTop:10}} />
                   <Text style={{color:'#000000',fontSize:17,marginTop:25}}>Delivery Tracking</Text>
               </TouchableOpacity>
 
             </View>
             <View style={styles.cardSecond}>
             <TouchableOpacity style={{justifyContent:'center',alignItems:'center',}}>
-                  <Image source={require('../Assests/ImagePlaceholder.png')} style={{width:wp(140),height:hp(120),marginTop:10}} />
+                  <Image source={require('../Assests/box.png')} style={{width:wp(120),height:hp(120),marginTop:10}} />
                   <Text style={{color:'#000000',fontSize:17,marginTop:25}}>Stock Status</Text>
               </TouchableOpacity>
             </View>
@@ -46,14 +46,14 @@ const EcoMotors = ({navigation}) => {
             <View style={{flexDirection:'row'}}>
             <View style={styles.cardOne}>
               <TouchableOpacity style={{justifyContent:'center',alignItems:'center',}}>
-                  <Image source={require('../Assests/ImagePlaceholder.png')} style={{width:wp(140),height:hp(120),marginTop:10}} />
+                  <Image source={require('../Assests/money.png')} style={{width:wp(140),height:hp(120),marginTop:10}} />
                   <Text style={{color:'#000000',fontSize:17,marginTop:25}}>Outstanding</Text>
               </TouchableOpacity>
 
             </View>
             <View style={styles.cardSecond}>
             <TouchableOpacity style={{justifyContent:'center',alignItems:'center',}}>
-                  <Image source={require('../Assests/ImagePlaceholder.png')} style={{width:wp(140),height:hp(120),marginTop:10}} />
+                  <Image source={require('../Assests/customer-satisfaction.png')} style={{width:wp(120),height:hp(120),marginTop:10}} />
                   <Text style={{color:'#000000',fontSize:17,marginTop:25}}>Complaints</Text>
               </TouchableOpacity>
             </View>
